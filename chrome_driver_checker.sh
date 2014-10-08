@@ -14,6 +14,6 @@ export DISPLAY
 # echo "Let's check the latest available Chrome driver version."
 last_version=$(curl -s http://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 # echo "The latest available Chrome driver version is" $last_version
-if [ "$last_version" != "2.10" ]; then
+if [ "$last_version" != "2.11" ]; then
 	$(notify-send "Chrome driver $last_version" "Chrome Driver version $last_version is available")
 fi
