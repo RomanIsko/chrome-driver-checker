@@ -9,4 +9,4 @@ Note: you may add the execution of the following script to the Cron with the fol
 * confirm saving the new task for Cron `Y`
 * expected result `crontab: installing new crontab`
 
-**Note:** each script execution performs the request to the remote server. So make sure you have an access to the [http://chromedriver.storage.googleapis.com/](http://chromedriver.storage.googleapis.com/index.html) and be careful with fre of requests.
+**Note:** each script execution performs the request to the remote server. So make sure you have an access to the [http://chromedriver.storage.googleapis.com/](http://chromedriver.storage.googleapis.com/index.html) and be careful with frequency of requests.
