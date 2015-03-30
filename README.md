@@ -10,3 +10,5 @@ Note: you may add the execution of the following script to the Cron with the fol
 * expected result `crontab: installing new crontab`
 
 **Note:** each script execution performs the request to the remote server. So make sure you have an access to the [http://chromedriver.storage.googleapis.com/](http://chromedriver.storage.googleapis.com/index.html) and be careful with frequency of requests.
+
+**References:** [http://habrahabr.ru/post/47892/#comment_7143538](http://habrahabr.ru/post/47892/#comment_7143538) and [http://habrahabr.ru/post/126849/#comment_4183443](http://habrahabr.ru/post/126849/#comment_4183443)
