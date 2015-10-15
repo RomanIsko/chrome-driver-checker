@@ -36,6 +36,6 @@ notify() {
 # echo "Let's check the latest available Chrome driver version."
 last_version=$(curl -s http://chromedriver.storage.googleapis.com/LATEST_RELEASE)
 # echo "The latest available Chrome driver version is" $last_version
-if [ "$last_version" != "2.19" ]; then
+if [ "$last_version" != "2.20" ]; then
     $(notify "Chrome driver $last_version" "Chrome Driver version $last_version is available" 5000)
 fi
